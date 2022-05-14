@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://external-preview.redd.it/KqQElaDfh2jOZ7UDUpjtNKFNpcpE2kDOq0wRXzNYMK0.jpg?auto=webp&s=77818fbb0c8656de4be67ed3c7c03603ee21f356);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #3EA6B3;
+    background-color: black;
+    text-align: center;
+    filter: drop-shadow(10px 2px 3px black);
+    margin: 20px 0;
+    position: relative;
+    left: -30px;
+    width: 200px;
+}
+
+.busca {
+    display: flex;
+    width: 300px;
+}
+.busca #searchInput {
+    flex: 1;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+}
+.busca button {
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+    background-color: black;
+    color: #FFF;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.busca button:hover {
+    background-color: #3EA6B3;
+    transition: all 300ms;
+}
+
+.resultado {
+    width: 300px;
+    display: none;
+    border: 1px solid #FFF;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.titulo {
+    width: 100%;
+    color: #3EA6B3;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    filter: drop-shadow(10px 2px 2px black);
+}
+
+.info {
+    display: flex;
+    width: 100%;
+}
+.info .temp {
+    flex: 1;
+    text-align: center;
+}
+.info .vento {
+    flex: 1;
+    text-align: center;
+}
+.tempTitulo,
+.ventoTitulo {
+    color: #3EA6B3;
+    font-size: 16px;
+    margin-bottom: 5px;
+    filter: drop-shadow(10px 2px 2px black);
+}
+.tempInfo,
+.ventoInfo {
+    color: #3EA6B3;
+    font-size: 30px;
+    font-weight: bold;
+    filter: drop-shadow(10px 2px 2px black);
+}
+.tempInfo sup {
+    font-size: 15px;
+    font-weight: normal;
+}
+.ventoInfo span {
+    font-size: 15px;
+    font-weight: normal;
+}
+.ventoArea {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.ventoPonto {
+    width: 15px;
+    height: 1px;
+    background-color: #FFF;
+    transform-origin: left;
+}
+
+.aviso {
+    color: #3EA6B3;
+    padding-top: 20px;
+    background-color: black;
+    filter: drop-shadow(10px 2px 2px black);
+
+}
+
+footer {
+    margin-top: 20px;
+    color: rgb(62, 166, 179);
+    font-size: 13px;
+    background-color: black;
+    position: relative;
+    left: -30px;
+    width: 200px;
+    text-align: center;
+    filter: drop-shadow(10px 2px 10px black);
+}
+
+#koi{
+    display: none;
+}
